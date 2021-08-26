@@ -34,7 +34,7 @@ blacklist = ("0x6e7f5c0b9f4432716bdd0a77a3601291b9d9e985", "0x440aBbf18c54b2782A
 # npairs = int(joeFactory.functions.allPairsLength().call())
 npairs = int(joeMasterChefV2.functions.poolLength().call())
 
-print('Iterating throughout the {} pairs.'.format(npairs))
+print('Iterating over {} pairs.'.format(npairs))
 token0s = []
 token1s = []
 for i in range(npairs):
