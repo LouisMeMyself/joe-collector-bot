@@ -22,7 +22,7 @@ Installation of the dependencies required for the project:
 ... $> source /path/to/new/virtual/environment/venv/bin/activate
 
 # installation of dependencies (only after having activated the virtual environment!)
-(venv) ... $> pip install -r requirements.txt
+(venv) ... $> pip3 install -r requirements.txt
 ```
 
 Then, to launch the fee collector simply type:
