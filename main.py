@@ -30,7 +30,7 @@ def exec_contract(acct_, nonce_, func_):
 # blacklist
 blacklist = ("0x6e7f5c0b9f4432716bdd0a77a3601291b9d9e985", "0x440aBbf18c54b2782A4917b80a1746d3A2c2Cce1")
 
-# constants
+# Number of pairs
 # npairs = int(joeFactory.functions.allPairsLength().call())
 npairs = int(joeMasterChefV2.functions.poolLength().call())
 

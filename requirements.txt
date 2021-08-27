@@ -28,7 +28,6 @@ parsimonious==0.8.1
 protobuf==3.17.3
 pycryptodome==3.10.1
 pyrsistent==0.18.0
-pywin32==301
 requests==2.26.0
 rlp==2.0.1
 six==1.16.0

@@ -9,12 +9,17 @@ Installation
 
 ### Use Virtualenv
 
-This repo uses virtualenv
+This repo uses virtualenv. Follow the instructions for Linux:
+
+Create a virtual env:
+```bash
+... $> python3 -m venv /path/to/new/virtual/environment
+```
 
 Installation of the dependencies required for the project:
 ```bash
 # activation of the virtual environment
-... $> source venv/bin/activate
+... $> source /path/to/new/virtual/environment/venv/bin/activate
 
 # installation of dependencies (only after having activated the virtual environment!)
 (venv) ... $> pip install -r requirements.txt
