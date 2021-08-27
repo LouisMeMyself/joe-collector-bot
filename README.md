@@ -28,5 +28,5 @@ Installation of the dependencies required for the project:
 Then, to launch the fee collector simply type:
 ```bash
 # launch the fee collector
-(venv) ... $> python main.py
+(venv) ... $> python3 main.py
 ```
